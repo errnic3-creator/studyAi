@@ -27,10 +27,10 @@ jobs:
 
       - name: Set up Environment Secrets
         run: |
-          echo "GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }}" >> local.properties[cite: 3, 4]
+          echo "GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }}" >> local.properties
 
       - name: Build Debug APK
-        run: ./gradlew assembleDebug --stacktrace[cite: 8]
+        run: ./gradlew assembleDebug --stacktrace
 
       - name: Run Unit Tests
         run: ./gradlew testDebugUnitTest --stacktrace
