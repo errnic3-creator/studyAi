@@ -1,0 +1,6 @@
+{
+  "name": "StudyAI",
+  "description": "AI-Powered Study Planner & Active Recall suite with smart scheduling, Pomodoro focus timer, interactive flashcards, quizzes, and concept summarizer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
